@@ -1,0 +1,26 @@
+{
+  "name": "redotpay-fee-calculator",
+  "version": "1.0.0",
+  "description": "A lightweight CLI and Node.js utility to estimate RedotPay card issuance discounts, crypto top-up gas buffers, and cross-border transaction fees.",
+  "main": "index.js",
+  "bin": {
+    "redotpay-calc": "./index.js"
+  },
+  "scripts": {
+    "test": "node index.js --test"
+  },
+  "keywords": [
+    "redotpay",
+    "crypto-card",
+    "fee-calculator",
+    "usdt-card",
+    "virtual-card",
+    "cross-border-payment",
+    "promo-code"
+  ],
+  "author": "RedotPay Guide Community",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
